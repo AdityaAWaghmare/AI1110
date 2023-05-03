@@ -261,18 +261,32 @@ columns=fullflexible
 \renewcommand{\thefigure}{\theenumi}
 \renewcommand{\thetable}{\theenumi}
 
-\textbf{12.13.4.2 }An urn contains 5 red and 2 black balls. Two balls are randomly drawn. Let X represent the number of black balls. What are the possible values of X? Is X a random variable?
-
+\textbf{12.13.4.2 }An urn contains 5 red and 2 black balls. Two balls are randomly drawn. Let X represent the number of black balls. What are the possible values of X? Is X a random variable?\\
 \textbf{Solution: }Possible values of X are as follows -
 \begin{align}
 	X = \{ 0, 1, 2 \}
 \end{align}
 
 
-A random variable is an assignment of real values to each outcome of the experiment. Therefore, X is an random variable.
+A random variable is an assignment of real values to each outcome of the experiment. Therefore, X is an random variable.\\
+\\
+Probability Mass Distribution of X :-\\
 
+For any event E, probability of event E is represented as \pr{E} and defined as 
+\begin{align}
+\pr{E} = \frac{ \text{Number of possible outcomes in which $E$ occurs} }{ \text{Number of total possible outcomes in Sample space} }
+\end{align}\\
+So we can find PMF of X as follows,\\
 
-Probability Mass Distribution of X :-
+\begin{enumerate}
+\item \pr{X = 0} = $\frac{ \binom{5}{2} }{ \binom{7}{2} } = \frac{10}{21}$\\
+
+\item \pr{X = 1} = $\frac{ \binom{5}{1} \binom{2}{1} }{ \binom{7}{2} } = \frac{10}{21}$\\
+
+\item \pr{X = 2} = $\frac{ \binom{2}{2} }{ \binom{7}{2} } = \frac{1}{21}$
+\end{enumerate}
+
+Therefore, PMF of X is
 \begin{equation}
 p_X(n) = 
 \begin{cases}
