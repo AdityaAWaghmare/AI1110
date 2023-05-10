@@ -1,7 +1,7 @@
 
 \let\negmedspace\undefined
 \let\negthickspace\undefined
-\documentclass[journal,12pt,onecolumn]{IEEEtran}
+\documentclass[journal,12pt,twocolumn]{IEEEtran}
 %\documentclass[conference]{IEEEtran}
 %\IEEEoverridecommandlockouts
 % The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
@@ -252,7 +252,7 @@ columns=fullflexible
 % make the title area
 \maketitle
 
-%\newpage
+\newpage
 
 
 
@@ -272,11 +272,49 @@ A random variable is an assignment of real values to each outcome of the experim
 \\
 Probability Mass Distribution of X :-\\
 
-For any event E, probability of event E is represented as \pr{E} and defined as 
-\begin{align}
-\pr{E} = \frac{ \text{Number of possible outcomes in which $E$ occurs} }{ \text{Number of total possible outcomes in Sample space} }
-\end{align}\\
-So we can find PMF of X as follows,\\
+
+Let $N = R + B + G$ and $n = r + b + g$
+
+
+where R, B, G and r, b, g represent the number of red, black and green marbles/balls respectively within N and n. Then
+\begin{equation}
+\pr{r, b, g} = \frac{ \binom{R}{r} \binom{B}{b} \binom{G}{g} }{\binom{R + B + G}{r + b + g}}
+\end{equation}
+\\
+In our case ,\\
+$
+R = 5\\
+B = 2\\
+G = 0\\
+N = 5+2+0 = 7\\
+$
+and $n = 2$\\
+also,\\
+here g = 0 as G = 0\\\\
+So as \\
+$
+n = r + b + g\\
+\therefore 2 = r + b + 0\\
+\therefore r = 2 - b\\
+$
+\\
+and as $X = b$\\
+and 
+\begin{equation}
+\pr{r, b, g} = \frac{ \binom{R}{r} \binom{B}{b} \binom{G}{g} }{\binom{R + B + G}{r + b + g}}
+\end{equation}
+\begin{equation}
+\therefore \pr{X=b} = \frac{ \binom{5}{2-b} \binom{2}{b} \binom{0}{0} }{\binom{7}{2}}
+\end{equation}
+\\
+So,\\
+Probability Distribution of X can be given as 
+\begin{equation}
+p_X(b) = \frac{ \binom{5}{2-b} \binom{2}{b}}{21}
+\end{equation}
+
+
+Probabilities for X = \{0, 1, 2\} are as follows\\
 
 \begin{enumerate}
 \item \pr{X = 0} = $\frac{ \binom{5}{2} }{ \binom{7}{2} } = \frac{10}{21}$\\
@@ -285,16 +323,6 @@ So we can find PMF of X as follows,\\
 
 \item \pr{X = 2} = $\frac{ \binom{2}{2} }{ \binom{7}{2} } = \frac{1}{21}$
 \end{enumerate}
-
-Therefore, PMF of X is
-\begin{equation}
-p_X(n) = 
-\begin{cases}
-\frac{10}{21} & n = 0\\
-\frac{10}{21} & n = 1\\
-\frac{1}{21} & n = 2
-\end{cases}
-\end{equation}
 
 \end{document}
 
