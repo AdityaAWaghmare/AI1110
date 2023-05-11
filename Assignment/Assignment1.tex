@@ -273,38 +273,35 @@ A random variable is an assignment of real values to each outcome of the experim
 Probability Mass Distribution of X :-\\
 
 
-Let $N = R + B + G$ and $n = r + b + g$
+Let $N = R + B$ and $n = r + b$
 
 
-where R, B, G and r, b, g represent the number of red, black and green marbles/balls respectively within N and n. Then
+where R, B and r, b represent the number of red and black marbles/balls respectively within N and n. Then
 \begin{equation}
-\pr{r, b, g} = \frac{ \binom{R}{r} \binom{B}{b} \binom{G}{g} }{\binom{R + B + G}{r + b + g}}
+\pr{r, b} = \frac{ \binom{R}{r} \binom{B}{b} }{\binom{R + B}{r + b}}
 \end{equation}
 \\
 In our case ,\\
 $
 R = 5\\
 B = 2\\
-G = 0\\
-N = 5+2+0 = 7\\
+N = 5+2 = 7\\
 $
-and $n = 2$\\
-also,\\
-here g = 0 as G = 0\\\\
+and $n = 2$\\\\
 Now,\\
 $
-n = r + b + g\\
-\therefore 2 = r + b + 0\\
+n = r + b\\
+\therefore 2 = r + b\\
 \therefore r = 2 - b\\
 $
 \\
 Now as $X = b$\\
 and 
 \begin{equation}
-\pr{r, b, g} = \frac{ \binom{R}{r} \binom{B}{b} \binom{G}{g} }{\binom{R + B + G}{r + b + g}}
+\pr{r, b} = \frac{ \binom{R}{r} \binom{B}{b}}{\binom{R + B}{r + b}}
 \end{equation}
 \begin{equation}
-\therefore \pr{X=b} = \frac{ \binom{5}{2-b} \binom{2}{b} \binom{0}{0} }{\binom{7}{2}}
+\therefore \pr{X=b} = \frac{ \binom{5}{2-b} \binom{2}{b} }{\binom{7}{2}}
 \end{equation}
 \\
 So,\\
