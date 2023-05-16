@@ -268,9 +268,10 @@ columns=fullflexible
 \end{align}
 
 
-A random variable is an assignment of real values to each outcome of the experiment. Therefore, X is an random variable.\\
-\\
-Probability Mass Distribution of X :-\\
+A random variable is an assignment of real values to each outcome of the experiment. Therefore, X is an random variable.
+
+
+
 
 
 Let $N = R + B$ and $n = r + b$\\
@@ -297,9 +298,9 @@ where,
 
 
 then
-\begin{equation}
+\begin{align}
 \pr{r, b} = \frac{ \binom{R}{r} \binom{B}{b} }{\binom{R + B}{r + b}}
-\end{equation}
+\end{align}
 \\
 In our case ,\\
 $
@@ -315,31 +316,25 @@ n = r + b\\
 \therefore r = 2 - b\\
 $
 \\
-Now as $X = b$\\
+Now as $X = b$
+
+
 and 
-\begin{equation}
+\begin{align}
 \pr{r, b} = \frac{ \binom{R}{r} \binom{B}{b}}{\binom{R + B}{r + b}}
-\end{equation}
-\begin{equation}
+\end{align}
+\begin{align}
 \therefore \pr{X=b} = \frac{ \binom{5}{2-b} \binom{2}{b} }{\binom{7}{2}}
-\end{equation}
-\\
-So,\\
-Probability Distribution of X can be given as 
-\begin{equation}
+\end{align}
+
+
+
+So,
+Probability Distribution of X can be given as
+\begin{align} 
 p_X(b) = \frac{ \binom{5}{2-b} \binom{2}{b}}{21}
-\end{equation}
-\\
-
-With this we can find probabilities for X = \{0, 1, 2\} as follows\\
-
-\begin{enumerate}
-\item \pr{X = 0} = $\frac{ \binom{5}{2} }{ \binom{7}{2} } = \frac{10}{21}$\\
-
-\item \pr{X = 1} = $\frac{ \binom{5}{1} \binom{2}{1} }{ \binom{7}{2} } = \frac{10}{21}$\\
-
-\item \pr{X = 2} = $\frac{ \binom{2}{2} }{ \binom{7}{2} } = \frac{1}{21}$
-\end{enumerate}
+\end{align}
+where b = \{0, 1, 2\}
 
 \end{document}
 

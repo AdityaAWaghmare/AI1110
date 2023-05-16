@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.4.24)  16 MAY 2023 11:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.4.24)  16 MAY 2023 23:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1201,49 +1201,21 @@ LaTeX Font Info:    Trying to load font information for TS1+txr on input line 2
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
 )
-Underfull \hbox (badness 10000) in paragraph at lines 271--274
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 271--274
-
- []
-
 LaTeX Font Info:    Trying to load font information for OMS+txr on input line 2
-89.
+90.
+
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxr.fd
 File: omstxr.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <12> not available
-(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 289.
+(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 290.
 
-Underfull \hbox (badness 10000) in paragraph at lines 302--320
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 302--320
+Underfull \hbox (badness 10000) in paragraph at lines 303--320
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 331--333
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 334--335
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 337--338
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 339--340
+Underfull \hbox (badness 10000) in paragraph at lines 303--320
 
  []
 
@@ -1255,13 +1227,13 @@ Package rerunfilecheck Info: File `Assignment1.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 29070 strings out of 478287
- 573951 string characters out of 5849289
- 840831 words of memory out of 5000000
- 46651 multiletter control sequences out of 15000+600000
- 529208 words of font info for 145 fonts, out of 8000000 for 9000
+ 29063 strings out of 478287
+ 573876 string characters out of 5849289
+ 836831 words of memory out of 5000000
+ 46649 multiletter control sequences out of 15000+600000
+ 527892 words of font info for 143 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 101i,8n,96p,415b,327s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 101i,10n,96p,415b,327s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type
@@ -1270,10 +1242,10 @@ onts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsya.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/
 texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Assignment1.pdf (1 page, 50901 bytes).
+Output written on Assignment1.pdf (1 page, 50045 bytes).
 PDF statistics:
- 67 PDF objects out of 1000 (max. 8388607)
- 47 compressed objects within 1 object stream
- 10 named destinations out of 1000 (max. 500000)
+ 64 PDF objects out of 1000 (max. 8388607)
+ 44 compressed objects within 1 object stream
+ 7 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
