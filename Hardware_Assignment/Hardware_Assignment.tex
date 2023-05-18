@@ -284,7 +284,7 @@ columns=fullflexible
 
 \section*{Procedure}
 \begin{enumerate}
-	\item First ee connect the 555 timer circuit according to the figure \ref{555_t_c}
+	\item First we generate the CLOCK signal using the 555 timer circuit as shown in figure \ref{555_t_c}
 	\begin{figure}[h]
 		\includegraphics[width=\linewidth]{images/555_timer_circuit.jpg}
 		\caption{Connection in 555 timer circuit}
@@ -293,28 +293,28 @@ columns=fullflexible
 	
 	\item Then we connect Clock output of 555 timer circuit to the clock signal of D-Flip flops
 	
-	\item Now we make the circuit for shift registers using 4 D-Flip flops (using two 7474 IC's)
+	\item Now we make the circuit for shift registers using 4 D-Flip flops (using two 7474 IC's) and one XOR gate(7486 IC) as shown in figure \ref{XOR}. Pin out for 7474 IC shown in figure \ref{7474_IC} 
 	\begin{figure}[h]
 		\includegraphics[width=\linewidth]{images/7474.jpg}
 		\caption{Connection in 7474 IC}
 		\label{7474_IC}
 	\end{figure}
 
-	\item Then we connect XOR gate (7486 IC) according to the figure \ref{XOR} 
+	\item Now we connect XOR gate (7486 IC) according to the figure \ref{XOR} 
 	\begin{figure}[h]
 		\includegraphics[width=\linewidth]{images/circuit_connections.jpg}
 		\caption{Connection in XOR gate}
 		\label{XOR}
 	\end{figure}
 
-	\item After that we connected the decoder (7447 IC) and connected its A,B,C,D with $D_0$,$D_1$,$D_2$,$D_3$ respectively as per the figure \ref{7447}
+	\item After that we connect the decoder (7447 IC) and connect its A,B,C,D with $D_0$,$D_1$,$D_2$,$D_3$ respectively as per the figure \ref{7447}
 	\begin{figure}[h]
 		\includegraphics[width=\linewidth]{images/7447.jpg}
 		\caption{Connection in Decoder gate}
 		\label{7447}
 	\end{figure}
 		
-	\item Then we place The seven segmented display and connect it with the dceoder (7447 IC) according to the table \ref{table} and the figure \ref{SSD}
+	\item Then we place The seven segmented display and connect it with the decoder (7447 IC) according to the table \ref{table} and the figure \ref{SSD}
 	\begin{figure}[h]
 		\includegraphics[width=\linewidth]{images/7447_table.jpg}
 		\caption{Connection of seven segmented display with decoder}
@@ -327,8 +327,8 @@ columns=fullflexible
 		\label{SSD}
 	\end{figure}
 
-	\item We connect all the independent parts with each other and connect it to the power source
-	 
+	\item Additionally we make connections like Vcc and GND to every IC as per the respective IC pinout for IC's 7474, 7447, 7486. 
+	
 	\item Output was changing digits on the seven segment display the output is shown in figure \ref{output}
 	\begin{figure}[h]
 		\includegraphics[width=\linewidth]{images/output.jpg}

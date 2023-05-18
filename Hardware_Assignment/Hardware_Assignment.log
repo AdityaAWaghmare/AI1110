@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.4.24)  18 MAY 2023 15:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.4.24)  18 MAY 2023 16:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1208,18 +1208,18 @@ File: images/555_timer_circuit.jpg Graphic file (type jpg)
 <use images/555_timer_circuit.jpg>
 Package pdftex.def Info: images/555_timer_circuit.jpg  used on input line 289.
 (pdftex.def)             Requested size: 252.0pt x 195.79877pt.
-<images/7474.jpg, id=9, 968.61874pt x 542.025pt>
+<images/7474.jpg, id=11, 968.61874pt x 542.025pt>
 File: images/7474.jpg Graphic file (type jpg)
 <use images/7474.jpg>
 Package pdftex.def Info: images/7474.jpg  used on input line 298.
 (pdftex.def)             Requested size: 252.0pt x 141.01414pt.
-<images/circuit_connections.jpg, id=11, 1204.5pt x 475.7775pt>
+<images/circuit_connections.jpg, id=13, 1204.5pt x 475.7775pt>
 File: images/circuit_connections.jpg Graphic file (type jpg)
 <use images/circuit_connections.jpg>
 Package pdftex.def Info: images/circuit_connections.jpg  used on input line 305
 .
 (pdftex.def)             Requested size: 252.0pt x 99.53871pt.
-<images/7447.jpg, id=13, 939.51pt x 542.025pt>
+<images/7447.jpg, id=15, 939.51pt x 542.025pt>
 File: images/7447.jpg Graphic file (type jpg)
 <use images/7447.jpg>
 Package pdftex.def Info: images/7447.jpg  used on input line 312.
@@ -1228,7 +1228,7 @@ Package pdftex.def Info: images/7447.jpg  used on input line 312.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/7447_table.jpg, id=16, 1204.5pt x 221.82875pt>
+<images/7447_table.jpg, id=18, 1204.5pt x 221.82875pt>
 File: images/7447_table.jpg Graphic file (type jpg)
 <use images/7447_table.jpg>
 Package pdftex.def Info: images/7447_table.jpg  used on input line 319.
@@ -1236,7 +1236,7 @@ Package pdftex.def Info: images/7447_table.jpg  used on input line 319.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/seven_segment_display.jpg, id=17, 397.485pt x 542.025pt>
+<images/seven_segment_display.jpg, id=19, 397.485pt x 542.025pt>
 File: images/seven_segment_display.jpg Graphic file (type jpg)
 <use images/seven_segment_display.jpg>
 Package pdftex.def Info: images/seven_segment_display.jpg  used on input line 3
@@ -1245,16 +1245,17 @@ Package pdftex.def Info: images/seven_segment_display.jpg  used on input line 3
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/output.jpg, id=19, 963.6pt x 1284.8pt>
-File: images/output.jpg Graphic file (type jpg)
-<use images/output.jpg>
-Package pdftex.def Info: images/output.jpg  used on input line 334.
-(pdftex.def)             Requested size: 252.0pt x 336.00056pt.
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
  <./images/555_timer_circuit.jpg> <./images/7474.jpg> <./images/circuit_connect
 ions.jpg>]
+<images/output.jpg, id=47, 963.6pt x 1284.8pt>
+File: images/output.jpg Graphic file (type jpg)
+<use images/output.jpg>
+Package pdftex.def Info: images/output.jpg  used on input line 334.
+(pdftex.def)             Requested size: 252.0pt x 336.00056pt.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -1268,7 +1269,7 @@ Package rerunfilecheck Info: File `Hardware_Assignment.out' has not changed.
 Here is how much of TeX's memory you used:
  29145 strings out of 478287
  575476 string characters out of 5849289
- 837242 words of memory out of 5000000
+ 836242 words of memory out of 5000000
  46706 multiletter control sequences out of 15000+600000
  537380 words of font info for 169 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
@@ -1279,10 +1280,10 @@ e/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist
 1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utm
 bi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/
 share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Hardware_Assignment.pdf (3 pages, 296314 bytes).
+Output written on Hardware_Assignment.pdf (3 pages, 296505 bytes).
 PDF statistics:
- 90 PDF objects out of 1000 (max. 8388607)
- 65 compressed objects within 1 object stream
+ 92 PDF objects out of 1000 (max. 8388607)
+ 67 compressed objects within 1 object stream
  22 named destinations out of 1000 (max. 500000)
  48 words of extra memory for PDF output out of 10000 (max. 10000000)
 
