@@ -72,6 +72,8 @@
 
 %\usepackage{wasysym}
 %\newcounter{MYtempeqncnt}
+\newcommand{\permcomb}[4][0mu]{{{}^{#3}\mkern#1#2_{#4}}}
+\newcommand{\comb}[1][-1mu]{\permcomb[#1]{C}}
 \DeclareMathOperator*{\Res}{Res}
 %\renewcommand{\baselinestretch}{2}
 \renewcommand\thesection{\arabic{section}}
@@ -299,7 +301,7 @@ where,
 
 then
 \begin{align}
-\pr{r, b} = \frac{ \binom{R}{r} \binom{B}{b} }{\binom{R + B}{r + b}}
+\pr{r, b} = \frac{ \comb{R}{r} \comb{B}{b} }{\comb{R + B}{r + b}}
 \end{align}
 \\
 In our case ,\\
@@ -321,10 +323,10 @@ Now as $X = b$
 
 and 
 \begin{align}
-\pr{r, b} = \frac{ \binom{R}{r} \binom{B}{b}}{\binom{R + B}{r + b}}
+\pr{r, b} = \frac{ \comb{R}{r} \comb{B}{b}}{\comb{R + B}{r + b}}
 \end{align}
 \begin{align}
-\therefore \pr{X=b} = \frac{ \binom{5}{2-b} \binom{2}{b} }{\binom{7}{2}}
+\therefore \pr{X=b} = \frac{ \comb{5}{2-b} \comb{2}{b} }{\comb{7}{2}}
 \end{align}
 
 
@@ -332,7 +334,7 @@ and
 So,
 Probability Distribution of X can be given as
 \begin{align} 
-p_X(b) = \frac{ \binom{5}{2-b} \binom{2}{b}}{21}
+p_X(b) = \frac{ \comb{5}{2-b} \comb{2}{b}}{21}
 \end{align}
 where b = \{0, 1, 2\}
 
