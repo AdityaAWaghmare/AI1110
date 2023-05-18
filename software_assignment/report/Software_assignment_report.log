@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.4.24)  18 MAY 2023 17:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.4.24)  18 MAY 2023 18:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1021,12 +1021,13 @@ LaTeX Font Info:    Trying to load font information for OT1+txr on input line 1
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
-No file Software_assignment_report.aux.
+(./Software_assignment_report.aux)
 \openout1 = `Software_assignment_report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 101.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
 101.
+
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
@@ -1162,6 +1163,8 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 101.
 LaTeX Info: Redefining \pageref on input line 101.
 LaTeX Info: Redefining \nameref on input line 101.
+
+(./Software_assignment_report.out) (./Software_assignment_report.out)
 \@outlinefile=\write4
 \openout4 = `Software_assignment_report.out'.
 
@@ -1171,35 +1174,58 @@ LaTeX Info: Redefining \nameref on input line 101.
 \c@lemma=\count342
 \c@example=\count343
 \c@rem=\count344
+LaTeX Font Info:    Trying to load font information for U+txsya on input line 2
+78.
 
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-(./Software_assignment_report.aux)
+(/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsya.fd
+File: utxsya.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Trying to load font information for U+txsyb on input line 2
+78.
 
-Package rerunfilecheck Warning: File `Software_assignment_report.out' has chang
-ed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
+(/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyb.fd
+File: utxsyb.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Trying to load font information for U+txmia on input line 2
+78.
 
-Package rerunfilecheck Info: Checksums for `Software_assignment_report.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+(/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxmia.fd
+File: utxmia.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Trying to load font information for U+txsyc on input line 2
+78.
+
+(/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd
+File: utxsyc.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Trying to load font information for TS1+txr on input line 2
+78.
+
+(/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
+File: ts1txr.fd 2000/12/15 v3.1
+) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./Software_assignment
+_report.aux)
+Package rerunfilecheck Info: File `Software_assignment_report.out' has not chan
+ged.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 28916 strings out of 478287
- 571773 string characters out of 5849289
- 823671 words of memory out of 5000000
- 46541 multiletter control sequences out of 15000+600000
- 516434 words of font info for 110 fonts, out of 8000000 for 9000
+ 29038 strings out of 478287
+ 573769 string characters out of 5849289
+ 824922 words of memory out of 5000000
+ 46633 multiletter control sequences out of 15000+600000
+ 523790 words of font info for 137 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  101i,6n,96p,430b,323s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
-w/times/utmr8a.pfb>
-Output written on Software_assignment_report.pdf (1 page, 31024 bytes).
+/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr
+8a.pfb>
+Output written on Software_assignment_report.pdf (1 page, 33441 bytes).
 PDF statistics:
- 39 PDF objects out of 1000 (max. 8388607)
- 29 compressed objects within 1 object stream
+ 44 PDF objects out of 1000 (max. 8388607)
+ 32 compressed objects within 1 object stream
  7 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
